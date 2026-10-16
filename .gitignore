@@ -1,0 +1,26 @@
+# Due to copyright license
+data/*
+!data/README.md
+
+# Generated files (reproductible with the scripts)
+index/
+*.npy
+*.pk1
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+
+# OS / code editor
+.DS_Store
+.vscode/
+!.vscode/extensions.json
+
+
+# Secrets
+.env
+
+
