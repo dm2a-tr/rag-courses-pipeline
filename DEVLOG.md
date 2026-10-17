@@ -38,7 +38,7 @@
 **Next step**
 - Gather all database course PDFs: 8 pages is too small for Recall@5 to mean anything (5 of 8 pages is already 62% by chance).
 
-## Step 5 (done early) - Test set
+## Step 3 - Test set
 
 **Done**
 - `eval/questions.json`: 25 questions, each with one or more expected (file, page) pairs.
