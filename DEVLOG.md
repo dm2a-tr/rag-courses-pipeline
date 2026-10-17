@@ -21,3 +21,19 @@
 
 **Next step**
 - Step 2: split pages into passages with metadata (course, file, page).
+
+## Step 2 - Passages
+
+**Done**
+- `build_passages(pages, course, file)` in `src/passages.py`.
+- One passage per page, as a dict with `course`, `file`, `page`, `text`.
+
+**Measured result**
+- 8 pages gave 8 passages, page numbers preserved.
+
+**What failed**
+- Nothing failed in this step.
+- Known limit: passages still contain the repeated footer, and short pages (title only) are kept as they are. Both are left for a later, measured step.
+
+**Next step**
+- Gather all database course PDFs: 8 pages is too small for Recall@5 to mean anything (5 of 8 pages is already 62% by chance).
