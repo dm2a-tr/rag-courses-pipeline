@@ -1,0 +1,267 @@
+[
+  {
+    "question": "How to install PostgreSQL on linux ?",
+    "expected": [
+      {
+        "file": "transp_cours_InstallPostgres.pdf",
+        "page": 7
+      }
+    ]
+  }, 
+    {
+    "question": "What do you call the smallest piece of data that cannot be split further, such as a car's colour, and what is the full set of them called?",
+    "expected": [
+      {
+        "file": "transp_cours11_handout-1.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "question": "How do I choose a field that uniquely distinguishes each record of an entity, and what if no existing attribute works?",
+    "expected": [
+      {
+        "file": "transp_cours11_handout-1.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "question": "What is the difference between a link with max 1 on one side and n on the other, and a link with n on both sides?",
+    "expected": [
+      {
+        "file": "transp_cours11_handout-1.pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "question": "At what point does the database administrator start designing the database relative to the analysts' conceptual model?",
+    "expected": [
+      {
+        "file": "transp_cours11_handout-1.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "question": "Who invented relational algebra and in which year?",
+    "expected": [
+      {
+        "file": "transp_cours13_handout-1.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "question": "How do I keep only certain columns of a table and get rid of repeated rows?",
+    "expected": [
+      {
+        "file": "transp_cours13_handout-1.pdf",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "question": "Which set of five operations is minimal, so that none can be rebuilt from the others?",
+    "expected": [
+      {
+        "file": "transp_cours13_handout-1.pdf",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "question": "What does combining every row of one table with every row of another produce, and what are its columns?",
+    "expected": [
+      {
+        "file": "transp_cours13_handout-1.pdf",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "question": "How can the common rows of two tables be computed using only subtraction?",
+    "expected": [
+      {
+        "file": "transp_cours14_handout-1.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "question": "Which operator finds rows of one table that are associated with every row of another table?",
+    "expected": [
+      {
+        "file": "transp_cours14_handout-1.pdf",
+        "page": 7
+      },
+      {
+        "file": "transp_cours14_handout-1.pdf",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "question": "What is a natural join and how does it handle columns with the same name?",
+    "expected": [
+      {
+        "file": "transp_cours14_handout-1.pdf",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "question": "How is a conditional join expressed with the basic selection and product operators?",
+    "expected": [
+      {
+        "file": "transp_cours14_handout-1.pdf",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "question": "How do I write a query in Access's graphical designer that totals ordered quantities for each supplier?",
+    "expected": [
+      {
+        "file": "transp_cours15_handout-1.pdf",
+        "page": 15
+      },
+      {
+        "file": "transp_cours15_handout-1.pdf",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "question": "How do I sort results ascending on one field and descending on another in a query-by-example grid?",
+    "expected": [
+      {
+        "file": "transp_cours15_handout-1.pdf",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "question": "How can I make sure that deleting a supplier also removes the rows of the orders that point to it?",
+    "expected": [
+      {
+        "file": "transp_cours16_handout-1.pdf",
+        "page": 10
+      },
+      {
+        "file": "transp_cours16_handout-1.pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "question": "What column type should I use for an id that the database fills in itself, and can I set it to step by 10?",
+    "expected": [
+      {
+        "file": "transp_cours16_handout-1.pdf",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "question": "How do I load the PostgreSQL or MySQL driver and build the connection URL in Java?",
+    "expected": [
+      {
+        "file": "transp_cours303_handout-1.pdf",
+        "page": 6
+      },
+      {
+        "file": "transp_cours303_handout-1.pdf",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "question": "How do I loop over the rows returned by a SELECT in Java and read each column?",
+    "expected": [
+      {
+        "file": "transp_cours303_handout-1.pdf",
+        "page": 14
+      },
+      {
+        "file": "transp_cours303_handout-1.pdf",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "question": "In Java, how do I get the key the database just generated after inserting a row, without running another query?",
+    "expected": [
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 4
+      },
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "question": "How can I run the same parametrised SQL statement many times with different values using question mark placeholders?",
+    "expected": [
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 10
+      },
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "question": "How do I send several INSERT statements to the server in a single round trip in JDBC?",
+    "expected": [
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 7
+      },
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "question": "Which SQL keywords let me group a money transfer so that either both updates happen or neither does?",
+    "expected": [
+      {
+        "file": "transp_cours305_handout-1.pdf",
+        "page": 5
+      },
+      {
+        "file": "transp_cours305_handout-1.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "question": "How do I turn off automatic validation of each statement in psql or in a Java connection?",
+    "expected": [
+      {
+        "file": "transp_cours305_handout-1.pdf",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "question": "How do I list the columns and their types of a query result using JDBC metadata?",
+    "expected": [
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 17
+      },
+      {
+        "file": "transp_cours304_handout-1.pdf",
+        "page": 18
+      }
+    ]
+  }
+]
