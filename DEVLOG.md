@@ -37,3 +37,20 @@
 
 **Next step**
 - Gather all database course PDFs: 8 pages is too small for Recall@5 to mean anything (5 of 8 pages is already 62% by chance).
+
+## Step 5 (done early) - Test set
+
+**Done**
+- `eval/questions.json`: 25 questions, each with one or more expected (file, page) pairs.
+- Corpus: 14 database course PDFs, about 300 pages.
+- 24 questions drafted with an AI tool from the course PDFs, 1 written by me (PostgreSQL install).
+
+**Measured result**
+- 1 expected pages corrected after checking each one in the PDF (Q21: batch JDBC, p8 became p7 and p8).
+- No search run yet, so no Recall@5 value.
+
+**What failed**
+- Only one question uses the PostgreSQL install PDF, and it is an easy case: it shares words with the file name.
+
+**Next step**
+- Write `load_questions` in `src/evaluation.py`, then BM25 (step 3) and Recall@5.
